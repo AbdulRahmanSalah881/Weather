@@ -1,7 +1,8 @@
-body{
+body {
     background-color: #1E202B;
 
 }
+
 .background {
     background-image: url(../image/banner.png);
     background-repeat: no-repeat;
@@ -16,9 +17,42 @@ body{
     color: white;
 }
 
+.ali {
+    font-size: 10px;
+}
+
+.nav-link {
+    width: 100px;
+    height: 40px;
+    padding: 0px;
+
+}
+
+.backgroundnav .active {
+    border: solid 2px #0D6EFD;
+    border-radius: 17px;
+    color: #009AD8;
+
+}
+
+.nav-link:hover {
+    border: solid 2px #009AD8;
+    border-radius: 17px;
+    color: #009AD8;
+
+}
+
+.element.style {
+    background-color: #1E202B;
+    color: rgb(175, 149, 149);
+    height: 60px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
 .backgroundinput {
     background-color: #1E202B;
-    color: white;
     height: 60px;
     border-radius: 20px;
     position: relative;
@@ -27,19 +61,33 @@ body{
 .btnclick {
     background-color: #009AD8;
     color: white;
-    height: 50px;
+    height: 60px;
     border-radius: 20px;
     position: absolute;
     padding: 5px 30px;
-    left: -10%;
+    left: 2%;
     bottom: -5px;
-    z-index: 10;
 
+
+}
+
+.exsample {
+    width: 100px;
+    height: 50px;
+    border: solid 5px #0D6EFD;
+    border-radius: 17px;
+    color: white;
+    font-style: oblique;
+
+}
+.exsample:hover{
+
+    background-color: #0D6EFD;
 }
 
 .btnclick:hover {
     background-color: #009AD8;
-
+    color: white;
 }
 
 .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
@@ -112,4 +160,25 @@ body{
 
     color: #6C757D;
     font-size: 12px
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    color: #0D6EFD;
+    font-size: 25px;
+
+}
+
+.circle:hover {
+    color: #ffffff;
+    background-color: #323544;
+
+}
+
+.backfooter {
+
+    background-color: #262936;
 }
